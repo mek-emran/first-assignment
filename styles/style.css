@@ -1,0 +1,95 @@
+.header-bg{
+        background-image: url('../picture/Hero-bg.png');
+
+        background-repeat: no-repeat;
+        opacity: 25px ;
+    }
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 150px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    color: #4E47FF;
+}
+.btn-primary{
+        background-color: #4E47FF;
+        font-weight: bold;
+        color: white;
+        padding: 18px 35px;
+        border-radius: 5px;
+        font-size: 20px;
+        border: none;
+    }
+    
+    .banner{
+        text-align: center;
+        margin-top: 158px;
+        margin-bottom: 200px ;
+    }
+    .banner-description{
+        font-size: 65px;
+        font-weight: bold;
+        color: #252432;;
+    }
+    /* 2nd page */
+    .second-page{
+        display: flex;
+        justify-content: space-between;
+        margin: 150px;
+        margin-top: 23px;
+    }
+    .second-page-hed{
+        font-weight: bold;
+        font-size: 42px;
+        color: #252432;
+    }
+    .second-page-p{
+        font-size: 24px;
+        color: #252432;
+        margin-top: 23px;
+        margin-bottom: 45px;
+    }
+    .second-pic{
+        border-radius: 48px;
+    }
+    /* third page */
+    .third-page{
+        background-color: #b4b3d7;
+        margin: 200px;
+        border-radius: 24px;
+        
+
+    }
+    .third-title{
+        color: #252432;
+        font-size: 38px;
+        font-weight: bold;
+        
+    }
+    .over-section{
+        padding: 50px 80px;
+        background-color: aliceblue;
+        text-align: center;
+        border-radius: 24px;
+        
+    }
+    .item{
+        display: flex;
+        text-align: center;
+        justify-content: space-around;
+        
+    }
+    .item-title{
+        color: #4E47FF;
+        font-size: 80px;
+        font-weight: bold;
+        
+    }
+    .item-description{
+        color: #000;
+        font-size: 20px;
+    }
