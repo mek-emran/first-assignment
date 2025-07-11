@@ -86,7 +86,7 @@ nav{
         
     }
     .over-section{
-        padding: 50px 80px;
+        padding: 0px 8px;
         background-color: aliceblue;
         text-align: center;
         border-radius: 24px;
@@ -272,20 +272,37 @@ nav{
         color: #4E47FF;
     }
     .footer-web{
-        margin: 200px;
-        padding: 200px 40px;
+        margin-top: 50px;
+        
+        
         
 }
     
     .last-ul{
         justify-content: space-around;
         /* padding: 0px 400px 0px 400px; */
-        
-        
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 200px;
+        margin-right: 200px;
 
+    }
+    .last-paragrap{
+        margin-top: 8px;
     }
     .last-page{
         background-color: #ededf5;
     padding: 80px 0;
     text-align: center;
+    background-color: #FFFFFF;
     
+    }
+    .title-list{
+        width: 401px;
+        height: 24px;
+        color: #8987A1;
+        text-decoration: none;
+        margin-top: 20px;
+        
+    }
+       
