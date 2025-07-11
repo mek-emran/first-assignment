@@ -17,10 +17,11 @@
         <div class="banner">
             <h3 class="banner-description">Cool Dark UI Template for Webflow,<br>Agencies!Stay Focused</h3>
             <button class="btn-primary">Stay Focused</button>
+            
 
         </div>
         </header>
-    <main class="main-colour">
+    <main>
         <section class="second-page">
             <div class="second-cover">
             <h3 class="second-page-hed">See It in Action</h3>
@@ -52,11 +53,15 @@
             <div class="forth-title">What our users say</div>
             <div class="skill">
             <div class="skill-rank">
-                <img src="picture/icon-star.png"  alt="">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
                 <h3 class="designer">Loved by Designers</h3>
                 <p class="skill-text">This template instantly leveled up our <br> presence.” – Studio Vertex</p>
                 <div class="profilr">
-                    <img src="picture/avatar.png" alt="">
+                    <img class="pic-profile" src="picture/avatar.png" alt="">
                     <div class="profile-text">
                     <h4 class="name">Name</h4>
                     <p class="date">Date</p>
@@ -64,11 +69,15 @@
                 </div>            
             </div>
             <div class="skill-rank">
-                <img src="picture/icon-star.png" alt="">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
                 <h3 class="designer">Loved by Designers</h3>
                 <p class="skill-text">This template instantly leveled up our <br> presence.” – Studio Vertex</p>
                 <div class="profilr">
-                    <img src="picture/avatar.png" alt="">
+                    <img class="pic-profile" src="picture/avatar.png" alt="">
                     <div class="profile-text">
                     <h4 class="name">Name</h4>
                     <p class="date">Date</p>
@@ -77,11 +86,15 @@
                 </div>            
             </div>
             <div class="skill-rank">
-                <img src="picture/icon-star.png" alt="">
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
+                <span class="star">★</span>
                 <h3 class="designer">Loved by Designers</h3>
                 <p class="skill-text">This template instantly leveled up our <br> presence.” – Studio Vertex</p>
                 <div class="profilr">
-                    <img src="picture/avatar.png" alt="">
+                    <img class="pic-profile" src="picture/avatar.png" alt="">
                     <div class="profile-text">
                     <h4 class="name">Name</h4>
                     <p class="date">Date</p>
@@ -101,18 +114,25 @@
             </div>
 
         </section>
-        <section class="sixth-page">
-            <div class="form">
-                <div class="from-hed">
-                    <h3 class="form-title">Let’s Get in <br>Touch</h3>
-                </div>
-                <div class="form-details">
-                <input type="text" name="" id="" placeholder="your name">
-                <input type="text" email="" id="" placeholder="Your email">
-                <textarea name="" id="" cols="30" rows="10" placeholder="your messasge"></textarea>
-                <input class="btn-sixth" type="button" value="Get in Touch">
-                </div>
+        <section class="contact-section">
+        <div class="contact-text">
+            <h2>Let's Get in<br>Touch</h2>
+        </div>
+        <div class="contact-form">
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="example@email.com">
             </div>
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" placeholder="full name">
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" placeholder="write your message...."></textarea>
+            </div>
+            <button class="submit-btn">Get in Touch</button>
+        </div>
         </section>
     </main>
     <footer>
@@ -123,13 +143,14 @@
                     <p class="last-paragrap">Ready to elevate your online presence? Contact us today to discuss <br>
                          your project and discover how we can bring your vision to life.</p>
                 </div>
-                <ul class="last-ul">
-                    <li class="title-last">Home</li>
-                    <li class="title-last">About</li>
-                    <li class="title-last">How it Works</li>
-                    <li class="title-last">Services</li>
-
-                </ul>
+                <nav class="last-ul">
+                
+                    <a class="title-list" href="#">Home</a>
+                    <a class="title-list" href="#">About</a>
+                    <a class="title-list" href="#">How it Works</a>
+                    <a class="title-list" href="#">Services</a>
+                    
+                </nav>
             </div>
         </section>
 
