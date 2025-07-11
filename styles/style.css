@@ -114,7 +114,8 @@ nav{
         gap: 100px;
         justify-content: space-around;
         padding: 30px;
-        background-color: #b4b3d7;            
+        
+        margin: 200px; 
     }
     .forth-title{
         text-align: center;
@@ -124,6 +125,9 @@ nav{
         
     }
     .skill-rank{
+        background-color: #b4b3d7;
+        padding: 30px;
+        border-radius: 5px;
       
     }   
     /* profile */
